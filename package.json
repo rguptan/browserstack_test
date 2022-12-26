@@ -1,0 +1,21 @@
+{
+  "name": "typescript-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:browserstack": "npx playwright test --config=./playwright-single-device.config.ts",
+    "test:local": "BROWSERSTACK_LOCAL=true npx playwright test --config=./playwright.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1",
+    "playwright": "^1.29.1"
+  },
+  "dependencies": {
+    "browserstack-local": "^1.5.1",
+    "playwright-core": "^1.29.1"
+  }
+}
