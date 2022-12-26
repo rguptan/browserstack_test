@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 ## Pre-requisites
 
 You need BrowserStack credentials to be able to run Playwright tests. You have to replace `YOUR_USERNAME` and `YOUR_ACCESS_KEY` in the sample scripts in this repository with your BrowserStack credentials which can be found in your [Account Settings](https://www.browserstack.com/accounts/settings) page.
@@ -12,4 +9,3 @@ You need BrowserStack credentials to be able to run Playwright tests. You have t
 1. Clone this repository
 2. Install the dependencies using `npm install`
 3. Run the sample script using `npx playwright test example.spec.ts --config=./playwright-single-device.config.ts`
->>>>>>> 228070e (Test Project)
